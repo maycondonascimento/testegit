@@ -1,0 +1,227 @@
+@charset "UTF-8";
+body {
+    font-size: 62.5%;
+    line-height: 1.5;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+body#principal {
+    font-size: 62.5%;
+    line-height: 1.5;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+    background-image: url(../_imagens/fundo3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    width: 100%;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/*cabeçalho*/
+
+div#cabecalho {
+    max-width: 1024px;
+    margin: .6em auto 2.6em auto;
+    position: relative;
+}
+
+.menu li:hover a {
+    text-shadow: .1em .1em .1em rgba(255, 255, 255, .6);
+    box-shadow: 0.2em 0.2em 0.2em 0.2em rgba(104, 119, 100, 0.4);
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 1.8em;
+    color: #000000;
+}
+
+.menu {
+    width: 100%;
+    float: right;
+}
+
+.menu ul {
+    float: right;
+    margin-right: 1.1em;
+}
+
+.menu li {
+    font-size: 1em;
+    margin-left: .9em;
+    margin-top: 0.6em;
+    display: inline-block;
+    padding: .2em 5em .2em .6em;
+}
+
+.menu li a#bthome {
+    font-size: 1.8em;
+    color: rgb(54, 116, 93);
+    font-weight: bold;
+}
+
+.menu li a#btme {
+    font-size: 2.6em;
+    color: rgb(54, 116, 93);
+    font-weight: bold;
+}
+
+.menu li a#btab {
+    font-size: 1.8em;
+    color: rgb(54, 116, 93);
+    font-weight: bold;
+}
+
+.menu li a#btcont {
+    font-size: 1.8em;
+    color: rgb(54, 116, 93);
+    font-weight: bold;
+}
+
+
+/*fim cabeçalho*/
+
+.botaop {
+    width: 500px;
+    position: absolute;
+    margin: 20% 0 0 10%;
+}
+
+.botaop h1 {
+    font-size: 3em;
+}
+
+.botaop input {
+    border-radius: 25px;
+    background-color: rgb(54, 116, 93);
+    padding: 10px 30px 10px 30px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.botaop input:hover {
+    box-shadow: 0.2em 0.2em 0.2em 0.2em rgba(104, 119, 100, 0.4);
+}
+
+.artdireita input {
+    border-radius: 25px;
+    background-color: rgb(54, 116, 93);
+    padding: 10px 30px 10px 30px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.artdireita input:hover {
+    box-shadow: 0.2em 0.2em 0.2em 0.2em rgba(104, 119, 100, 0.4);
+}
+
+.artdireita p {
+    color: #a19e9e;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.artesquerda p {
+    color: #a19e9e;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.artesquerda h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+
+.artesquerda label {
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(54, 116, 93);
+    margin-bottom: 25px;
+}
+
+.artesquerda {
+    width: 320px;
+    height: 350px;
+    position: absolute;
+    margin: 13% 0 0 10%;
+}
+
+.artcentro {
+    background-color: #ffffff;
+    background-image: url(../_imagens/fundo3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 320px;
+    height: 350px;
+    position: absolute;
+    margin: 20% 0 0 38%;
+    background-size: 400px 270px;
+}
+
+.artdireita {
+    width: 310px;
+    height: 350px;
+    position: absolute;
+    margin: 20% 0 0 70%;
+}
+
+.formulario {
+    width: 70%;
+    height: 400px;
+    position: absolute;
+    margin: 8% 0 0 18%;
+}
+
+div#tituloform {
+    margin: 0 auto 60px auto;
+    width: 400px;
+}
+
+div#tituloform h1 {
+    font-size: 2.8em;
+}
+
+.nome {
+    width: 350px;
+    margin-bottom: 20px;
+    box-shadow: 0.2em 0.2em 0.2em 0.2em rgba(192, 201, 190, 0.4);
+    border: none;
+}
+
+.nome:hover {
+    box-shadow: 0.2em 0.2em 0.2em 0.2em rgba(104, 119, 100, 0.4);
+}
+
+.grande {
+    width: 705px;
+    margin-bottom: 20px;
+    box-shadow: 0.2em 0.2em 0.2em 0.2em rgba(192, 201, 190, 0.4);
+    border: none;
+}
+
+.grande:hover {
+    box-shadow: 0.2em 0.2em 0.2em 0.2em rgba(104, 119, 100, 0.4);
+}
+
+.inpmsg {
+    width: 705px;
+    height: 200px;
+    box-shadow: 0.2em 0.2em 0.2em 0.2em rgba(192, 201, 190, 0.4);
+    border: none;
+}
+
+.inpmsg:hover {
+    box-shadow: 0.2em 0.2em 0.2em 0.2em rgba(104, 119, 100, 0.4);
+}
